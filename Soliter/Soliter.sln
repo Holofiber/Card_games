@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soliter", "Soliter\Soliter.csproj", "{63AF0252-CA7F-4B6A-B4E4-5BAD8E4693E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoliterBusinessLogic", "SoliterBusinessLogic\SoliterBusinessLogic.csproj", "{FA9EC872-795C-4EBF-AFAE-B292140F8A61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoliterBusinessLogic", "SoliterBusinessLogic\SoliterBusinessLogic.csproj", "{FA9EC872-795C-4EBF-AFAE-B292140F8A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayField", "PlayField\PlayField.csproj", "{B711D372-8201-48EC-9089-74BD96510D8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FA9EC872-795C-4EBF-AFAE-B292140F8A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA9EC872-795C-4EBF-AFAE-B292140F8A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA9EC872-795C-4EBF-AFAE-B292140F8A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B711D372-8201-48EC-9089-74BD96510D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B711D372-8201-48EC-9089-74BD96510D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B711D372-8201-48EC-9089-74BD96510D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B711D372-8201-48EC-9089-74BD96510D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
